@@ -13,7 +13,7 @@ db = Database()
 
 @app.route('/', methods=['GET'])
 def ping():
-    return jsonify({"response": "app running..."})
+    return jsonify({"response": "app running...para probar railways"})
 
 # Ruta para obtener los materiales
 @app.route('/materiales', methods=['GET'])
