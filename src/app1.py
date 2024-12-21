@@ -8,6 +8,7 @@ app = Flask(__name__)
 
 CORS(app, origins=["*"])  # Permite solicitudes desde cualquier origen
 
+print('ejecutando la aplicación')
 # Instancia de la base de datos
 db = Database()
 
