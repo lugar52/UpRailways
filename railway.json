@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "version": 2,
     "builds": [
@@ -13,4 +14,21 @@
       }
     ]
   }
+=======
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "src/app1.py",
+        "use": "@railway/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "src/app1.py"
+      }
+    ]
+  }
+>>>>>>> 7f8c81031d398bc08c8e22528dc2f1969e3d9118
   
